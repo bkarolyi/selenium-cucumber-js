@@ -19,7 +19,7 @@ module.exports = function() {
         path: chromedriver.path
     }).build();
 
-    driver.manage().window().maximize();
+    // driver.manage().window().maximize();
 
     return driver;
 };
